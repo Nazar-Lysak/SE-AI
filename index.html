@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Simply Chocolate</title>
 </head>
 <body>
 
     <!-- #region header -->
     <header>
-        <a href="/">
+        <a href="./">
             SIMPLY CHOCOLATE
             <img src="./docs/html-css-js.jpg" alt="logo" height="24" width="24">
         </a>
@@ -28,17 +28,17 @@
         </nav>
         <ul>
             <li>
-                <a href="" target="_blank">
+                <a href="" target="_blank" rel="noopener noreferrer">
                     facebook
                 </a>
             </li>
             <li>
-                <a href="" target="_blank">
+                <a href="" target="_blank" rel="noopener noreferrer">
                     instagram
                 </a>
             </li>
             <li>
-                <a href="" target="_blank">
+                <a href="" target="_blank" rel="noopener noreferrer">
                     twitter
                 </a>
             </li>
@@ -106,43 +106,43 @@
             </h2>
             <ul>
                 <li>
-                    <img src="./images/ingredients/chocolate.png" alt="" height="160" width="212">
+                    <img src="./images/ingredients/chocolate.png" alt="" height="160" width="212" loading="lazy">
                     <h3>
                         MILK CHOCOLATE
                     </h3>
                 </li>
                 <li>
-                    <img src="./images/ingredients/milk.png" alt="" height="160" width="212">
+                    <img src="./images/ingredients/milk.png" alt="" height="160" width="212" loading="lazy">
                     <h3>
                         MILK
                     </h3>
                 </li>
                 <li>
-                    <img src="./images/ingredients/nuts.png" alt="" height="160" width="212">
+                    <img src="./images/ingredients/nuts.png" alt="" height="160" width="212" loading="lazy">
                     <h3>
                         NUTS
                     </h3>
                 </li>
                 <li>
-                    <img src="./images/ingredients/choco-beans.png" alt="" height="160" width="212">
+                    <img src="./images/ingredients/choco-beans.png" alt="" height="160" width="212" loading="lazy">
                     <h3>
                         SEMI-SWEET CHOCOLATE
                     </h3>
                 </li>
                 <li>
-                    <img src="./images/ingredients/cacao.png" alt="" height="160" width="212">
+                    <img src="./images/ingredients/cacao.png" alt="" height="160" width="212" loading="lazy">
                     <h3>
                         CACAO
                     </h3>
                 </li>
                 <li>
-                    <img src="./images/ingredients/raspberry.png" alt="" height="160" width="212">
+                    <img src="./images/ingredients/raspberry.png" alt="" height="160" width="212" loading="lazy">
                     <h3>
                         RASPBERRY
                     </h3>
                 </li>
                 <li>
-                    <img src="./images/ingredients/coconut.png" alt="" height="160" width="212">
+                    <img src="./images/ingredients/coconut.png" alt="" height="160" width="212" loading="lazy">
                     <h3>
                         COCONUT OIL
                     </h3>
@@ -156,7 +156,7 @@
             <h2>
                 How it’s made?
             </h2>
-            <img src="./images/made/made.jpg" alt="How it’s made?" height="400" width="600">
+            <img src="./images/made/made.jpg" alt="How it’s made?" height="400" width="600" loading="lazy">
             <h3>
                 Try  our chocolates today and discover the perfect balance of flavor
             </h3>
@@ -187,19 +187,19 @@
             </h2>
             <ul>
                 <li>
-                    <img src="" alt="">
+                    <img src="./docs/html-css-js.jpg" alt="" height="200" width="300" loading="lazy">
                     <h3>
                         CHOCOLATE WITH NUTS
                     </h3>
                 </li>
                 <li>
-                    <img src="" alt="">
+                    <img src="./docs/html-css-js.jpg" alt="" height="200" width="300" loading="lazy">
                     <h3>
                         CHOCOLATE WITH FRUITS
                     </h3>
                 </li>
                 <li>
-                    <img src="" alt="">
+                    <img src="./docs/html-css-js.jpg" alt="" height="200" width="300" loading="lazy">
                     <h3>
                         DARK CHOCOLATE
                     </h3>
@@ -217,7 +217,7 @@
             </h2>
             <ul>
                 <li>
-                    <img src="./images/feedback/victoria-dobrzhanska.png" alt="Victoria Dobrzhanska">
+                    <img src="./images/feedback/victoria-dobrzhanska.png" alt="Victoria Dobrzhanska" height="80" width="80" loading="lazy">
                     <h3>
                         Victoria Dobrzhanska
                     </h3>
@@ -226,7 +226,7 @@
                     </p>
                 </li>
                 <li>
-                    <img src="./images/feedback/nazar-babenko.png" alt="Nazar Babenko">
+                    <img src="./images/feedback/nazar-babenko.png" alt="Nazar Babenko" height="80" width="80" loading="lazy">
                     <h3>
                         Nazar Babenko
                     </h3>
@@ -235,7 +235,7 @@
                     </p>
                 </li>
                 <li>   
-                    <img src="./images/feedback/olena-kampusch.png" alt="Olena Kampusch">
+                    <img src="./images/feedback/olena-kampusch.png" alt="Olena Kampusch" height="80" width="80" loading="lazy">
                     <h3>
                         Olena Kampusch
                     </h3>
@@ -263,17 +263,17 @@
         </p>    
         <ul>
             <li>
-                <a href="" target="_blank">
+                <a href="" target="_blank" rel="noopener noreferrer">
                     facebook
                 </a>
             </li>
             <li>
-                <a href="" target="_blank">
+                <a href="" target="_blank" rel="noopener noreferrer">
                     instagram
                 </a>
             </li>
             <li>
-                <a href="" target="_blank">
+                <a href="" target="_blank" rel="noopener noreferrer">
                     twitter
                 </a>
             </li>
@@ -304,7 +304,8 @@
             </li>
         </ul>
         <form>
-            <input type="email">
+            <label for="subscribe-email">Your email</label>
+            <input type="email" id="subscribe-email" name="email" autocomplete="email" required>
             <button type="submit">Subscribe</button>
         </form>
 
