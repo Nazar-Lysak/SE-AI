@@ -1,0 +1,78 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul, 
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    /* font-style: italic; */
+}
+
+.link-item {
+    /* font-size: 20px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace; */
+}
+
+.page-header .link-item {
+    /* color: black; */
+}
+
+.page-footer {
+    /* background-color: rgb(43, 42, 42); */
+}
+
+.page-footer .link-item {
+    /* color: white; */
+}
+
+
+.main-section > p {
+    /* color: red; */
+}
+
+/* специфічність селекторів */
+
+/* тег - 1 */
+/* class - 10 */
+/* id  - 100 */
+/* inline - 1000 */
+/*  !important - in */
+
+.btn {
+    cursor: pointer;
+    height: 36px;
+    width: 90px;
+    color: black;
+    background-color: azure;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: black;
+    color: wheat;
+}
+
+.btn:active {
+    background-color: blueviolet;
+}
+
+.bth-active {
+    background-color: orange;
+}
+
